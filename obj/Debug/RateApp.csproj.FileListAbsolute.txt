@@ -1,0 +1,48 @@
+c:\users\dmorgan\source\repos\RateApp\RateApp\bin\Debug\RateApp.exe.config
+c:\users\dmorgan\source\repos\RateApp\RateApp\bin\Debug\RateApp.exe
+c:\users\dmorgan\source\repos\RateApp\RateApp\bin\Debug\RateApp.pdb
+c:\users\dmorgan\source\repos\RateApp\RateApp\obj\Debug\RateApp.csprojAssemblyReference.cache
+c:\users\dmorgan\source\repos\RateApp\RateApp\obj\Debug\RateApp.Form1.resources
+c:\users\dmorgan\source\repos\RateApp\RateApp\obj\Debug\RateApp.Properties.Resources.resources
+c:\users\dmorgan\source\repos\RateApp\RateApp\obj\Debug\RateApp.csproj.GenerateResource.cache
+c:\users\dmorgan\source\repos\RateApp\RateApp\obj\Debug\RateApp.csproj.CoreCompileInputs.cache
+c:\users\dmorgan\source\repos\RateApp\RateApp\obj\Debug\RateApp.exe
+c:\users\dmorgan\source\repos\RateApp\RateApp\obj\Debug\RateApp.pdb
+E:\RateApp\RateApp\bin\Debug\RateApp.exe.config
+E:\RateApp\RateApp\obj\Debug\RateApp.exe
+E:\RateApp\RateApp\obj\Debug\RateApp.pdb
+E:\RateApp\RateApp\obj\Debug\RateApp.csprojResolveAssemblyReference.cache
+E:\RateApp\RateApp\obj\Debug\RateApp.Form1.resources
+E:\RateApp\RateApp\obj\Debug\RateApp.MainForm.resources
+E:\RateApp\RateApp\obj\Debug\RateApp.Properties.Resources.resources
+E:\RateApp\RateApp\obj\Debug\RateApp.csproj.GenerateResource.Cache
+E:\RateApp\RateApp\bin\Debug\RateApp.exe
+E:\RateApp\RateApp\bin\Debug\RateApp.pdb
+E:\RateApp\RateApp - Copy\bin\Debug\RateApp.exe.config
+E:\RateApp\RateApp - Copy\obj\Debug\RateApp.exe
+E:\RateApp\RateApp - Copy\obj\Debug\RateApp.pdb
+E:\RateApp\RateApp - Copy\bin\Debug\RateApp.exe
+E:\RateApp\RateApp - Copy\bin\Debug\RateApp.pdb
+E:\RateApp\RateApp - Copy\obj\Debug\RateApp.csprojResolveAssemblyReference.cache
+E:\RateApp\RateApp - Copy\obj\Debug\RateApp.Form1.resources
+E:\RateApp\RateApp - Copy\obj\Debug\RateApp.MainForm.resources
+E:\RateApp\RateApp - Copy\obj\Debug\RateApp.Properties.Resources.resources
+E:\RateApp\RateApp - Copy\obj\Debug\RateApp.csproj.GenerateResource.Cache
+L:\IT\Bo Faulk\RateApp - Copy - 8-30 v2\bin\Debug\RateApp.exe.config
+L:\IT\Bo Faulk\RateApp - Copy - 8-30 v2\obj\Debug\RateApp.exe
+L:\IT\Bo Faulk\RateApp - Copy - 8-30 v2\obj\Debug\RateApp.pdb
+C:\Users\bfaulk\Projects\RateAppV2\bin\Debug\RateApp.exe.config
+C:\Users\bfaulk\Projects\RateAppV2\bin\Debug\RateApp.exe
+C:\Users\bfaulk\Projects\RateAppV2\bin\Debug\RateApp.pdb
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.csprojAssemblyReference.cache
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.Form1.resources
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.Login.resources
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.Properties.Resources.resources
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.Upload.resources
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.csproj.GenerateResource.cache
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.csproj.CoreCompileInputs.cache
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.exe
+C:\Users\bfaulk\Projects\RateAppV2\obj\Debug\RateApp.pdb
+E:\BidApp\bin\Debug\RateApp.exe.config
+E:\BidApp\obj\Debug\RateApp.exe
+E:\BidApp\obj\Debug\RateApp.pdb

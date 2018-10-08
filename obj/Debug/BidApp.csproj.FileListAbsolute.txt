@@ -1,0 +1,48 @@
+E:\BidApp\bin\Debug\RateApp.exe.config
+E:\BidApp\obj\Debug\RateApp.exe
+E:\BidApp\obj\Debug\RateApp.pdb
+E:\BidApp\bin\Debug\RateApp.exe
+E:\BidApp\bin\Debug\RateApp.pdb
+E:\BidApp\obj\Debug\BidApp.csprojResolveAssemblyReference.cache
+E:\BidApp\obj\Debug\RateApp.Properties.Resources.resources
+E:\BidApp\obj\Debug\BidApp.csproj.GenerateResource.Cache
+E:\BidApp\obj\Debug\BidApp.Form1.resources
+E:\BidApp\obj\Debug\BidApp.Login.resources
+E:\BidApp\obj\Debug\BidApp.Upload.resources
+C:\Users\BFaulk\Projects\BidApp\bin\Debug\RateApp.exe.config
+C:\Users\BFaulk\Projects\BidApp\bin\Debug\RateApp.exe
+C:\Users\BFaulk\Projects\BidApp\bin\Debug\RateApp.pdb
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\BidApp.csprojAssemblyReference.cache
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\BidApp.Form1.resources
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\BidApp.Login.resources
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\RateApp.Properties.Resources.resources
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\BidApp.Upload.resources
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\BidApp.csproj.GenerateResource.cache
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\BidApp.csproj.CoreCompileInputs.cache
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\RateApp.exe
+C:\Users\BFaulk\Projects\BidApp\obj\Debug\RateApp.pdb
+E:\BidApp\BidApp\bin\Debug\RateApp.exe.config
+E:\BidApp\BidApp\obj\Debug\RateApp.exe
+E:\BidApp\BidApp\obj\Debug\RateApp.pdb
+E:\BidApp\BidApp\bin\Debug\RateApp.exe
+E:\BidApp\BidApp\bin\Debug\RateApp.pdb
+E:\BidApp\BidApp\obj\Debug\BidApp.csprojResolveAssemblyReference.cache
+E:\BidApp\BidApp\obj\Debug\BidApp.Form1.resources
+E:\BidApp\BidApp\obj\Debug\BidApp.Login.resources
+E:\BidApp\BidApp\obj\Debug\RateApp.Properties.Resources.resources
+E:\BidApp\BidApp\obj\Debug\BidApp.Upload.resources
+E:\BidApp\BidApp\obj\Debug\BidApp.csproj.GenerateResource.Cache
+E:\Bid repository\BidApp\bin\Debug\RateApp.exe.config
+E:\Bid repository\BidApp\obj\Debug\RateApp.exe
+E:\Bid repository\BidApp\obj\Debug\RateApp.pdb
+E:\Bid repository\BidApp\bin\Debug\RateApp.exe
+E:\Bid repository\BidApp\bin\Debug\RateApp.pdb
+E:\Bid repository\BidApp\obj\Debug\BidApp.csprojResolveAssemblyReference.cache
+E:\Bid repository\BidApp\obj\Debug\BidApp.Form1.resources
+E:\Bid repository\BidApp\obj\Debug\BidApp.Login.resources
+E:\Bid repository\BidApp\obj\Debug\RateApp.Properties.Resources.resources
+E:\Bid repository\BidApp\obj\Debug\BidApp.Upload.resources
+E:\Bid repository\BidApp\obj\Debug\BidApp.csproj.GenerateResource.Cache
+E:\Bid repository\BidApp\Bid-Repository2\bin\Debug\RateApp.exe.config
+E:\Bid repository\BidApp\Bid-Repository2\obj\Debug\RateApp.exe
+E:\Bid repository\BidApp\Bid-Repository2\obj\Debug\RateApp.pdb

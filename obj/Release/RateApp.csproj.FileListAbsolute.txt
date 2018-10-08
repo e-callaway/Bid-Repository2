@@ -1,0 +1,31 @@
+E:\RateApp\RateApp\bin\Release\RateApp.exe.config
+E:\RateApp\RateApp\bin\Release\RateApp.exe
+E:\RateApp\RateApp\bin\Release\RateApp.pdb
+E:\RateApp\RateApp\obj\Release\RateApp.csprojResolveAssemblyReference.cache
+E:\RateApp\RateApp\obj\Release\RateApp.Form1.resources
+E:\RateApp\RateApp\obj\Release\RateApp.MainForm.resources
+E:\RateApp\RateApp\obj\Release\RateApp.Properties.Resources.resources
+E:\RateApp\RateApp\obj\Release\RateApp.csproj.GenerateResource.Cache
+E:\RateApp\RateApp\obj\Release\RateApp.exe
+E:\RateApp\RateApp\obj\Release\RateApp.pdb
+E:\RateApp\RateApp - Copy\bin\Release\RateApp.exe.config
+E:\RateApp\RateApp - Copy\obj\Release\RateApp.exe
+E:\RateApp\RateApp - Copy\obj\Release\RateApp.pdb
+E:\RateApp\RateApp - Copy\bin\Release\RateApp.exe
+E:\RateApp\RateApp - Copy\bin\Release\RateApp.pdb
+E:\RateApp\RateApp - Copy\obj\Release\RateApp.csprojResolveAssemblyReference.cache
+E:\RateApp\RateApp - Copy\obj\Release\RateApp.Form1.resources
+E:\RateApp\RateApp - Copy\obj\Release\RateApp.MainForm.resources
+E:\RateApp\RateApp - Copy\obj\Release\RateApp.Properties.Resources.resources
+E:\RateApp\RateApp - Copy\obj\Release\RateApp.csproj.GenerateResource.Cache
+C:\Users\BFaulk\Projects\RateAppV2\bin\Release\RateApp.exe.config
+C:\Users\BFaulk\Projects\RateAppV2\bin\Release\RateApp.exe
+C:\Users\BFaulk\Projects\RateAppV2\bin\Release\RateApp.pdb
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.Form1.resources
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.Login.resources
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.Properties.Resources.resources
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.Upload.resources
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.csproj.GenerateResource.cache
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.csproj.CoreCompileInputs.cache
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.exe
+C:\Users\BFaulk\Projects\RateAppV2\obj\Release\RateApp.pdb

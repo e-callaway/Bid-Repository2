@@ -1,0 +1,282 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.OleDb;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace RateApp
+{
+    public partial class Upload : Form
+    {
+        public Upload()
+        {
+            InitializeComponent();
+        }
+
+        private void cmdBrowse_Click(object sender, EventArgs e)
+        {
+            ofd.ShowDialog();
+        }
+
+        private void cmdUpload_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtFilePath.Text != "")
+                {
+
+                    
+                    string fileName = txtFilePath.Text;
+
+                    //OleDbConnection odc = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filename + ";Extended Properties=Excel 12.0;");
+                    //OleDbConnection odc = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + fileName + "; Jet OLEDB:Engine Type=5;Extended Properties=\"Excel 8.0;\"");
+                    //OleDbCommand command = new OleDbCommand("select * from [Sheet1]", odc);
+
+                    DataTable sheetData = new DataTable();
+                    using (OleDbConnection conn = this.returnConnection(fileName))
+                    {
+                        conn.Open();
+                        // retrieve the data using data adapter
+
+                        //DataTable dt = conn.GetOleDbSchemaTable(OleDbSchemaGuid.Tables, null);
+                        //string s = "";
+
+                        OleDbDataAdapter sheetAdapter = new OleDbDataAdapter("select * from [Sheet1$]", conn);
+
+                        //foreach (DataRow drSheet in dt.Rows)
+                        //    if (drSheet["TABLE_NAME"].ToString().Contains("$"))
+                        //    {
+                        //        s =  s + "  " + drSheet["TABLE_NAME"].ToString();
+                                
+                        //    }
+                        
+                        //if (s != "")
+                        //{
+
+                        //}
+
+                        sheetAdapter.Fill(sheetData);
+
+
+                        conn.Close();
+                    }
+
+                    if (sheetData.Rows.Count > 0)
+                    {
+
+                        foreach (DataRow row in sheetData.Rows)
+                        {
+                            string pricingRateId = row[0].ToString();
+                            string sortId = row[1].ToString();
+                            string sentPub = row[2].ToString();
+
+                        }
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
+        private OleDbConnection returnConnection(string fileName)
+        {
+            //return new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + fileName + "; Jet OLEDB:Engine Type=5;Extended Properties=\"Excel 8.0;\"");
+            return new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + fileName + ";Extended Properties=Excel 12.0;");
+
+        }
+
+        private static List<string> getZips(string sZips)
+        {
+
+            var zipList = new List<string>();
+            try
+            {
+
+
+                var nLen = sZips.Length;
+
+                var nCount = 0;
+
+                sZips = sZips.Replace(" ", "");
+
+                while (nLen > 3)
+                {
+                    string sChar = sZips.Substring(nCount, 1);
+                    string sFirst = sZips.Substring(nCount, 3);
+                    string sSecond = sZips.Substring(nCount + 1, 1);
+                    string sCheck = sZips.Substring(nCount + 3, 1);
+
+                    if (nLen > 3)
+                    {
+                        if (sChar == ",")
+                        {
+                            sFirst = sZips.Substring(nCount + 1, 3);
+
+                            if (nLen >= 7)
+                            {
+                                sCheck = sZips.Substring(nCount + 4, 1);
+
+                                if (sCheck == "-" || sCheck == ":")
+                                {
+
+                                    string sRange = sZips.Substring(nCount + 1, 7);
+
+                                    int firstno = Convert.ToInt32(sRange.Substring(0, 3));
+                                    int lastno = Convert.ToInt32(sRange.Substring(4, 3));
+
+                                    int count = (lastno - firstno) + 1;
+
+                                    var x = new List<string>();
+                                    foreach (int i in Enumerable.Range(firstno, count)) x.Add(i.ToString());
+
+                                    zipList.AddRange(x);
+                                    nLen -= 8;
+                                    nCount += 7;
+
+                                }
+                                else if (sSecond == " ")
+                                {
+
+                                    string sRange = sZips.Substring(nCount, 6);
+
+
+                                    int firstno = Convert.ToInt32(sRange.Substring(0, 3));
+                                    int lastno = Convert.ToInt32(sRange.Substring(4, 3));
+
+                                    int count = (lastno - firstno) + 1;
+
+                                    var x = new List<string>();
+                                    foreach (int i in Enumerable.Range(firstno, count)) x.Add(i.ToString());
+
+                                    zipList.AddRange(x);
+                                    nLen -= 7;
+                                    nCount += 7;
+
+                                }
+                                else
+                                {
+                                    nLen -= 3;
+                                    nCount += 4;
+
+                                    zipList.Add(sFirst);
+                                }
+
+                            }
+                            else
+                            {
+                                nLen -= 3;
+                                nCount += 3;
+
+                                zipList.Add(sFirst);
+                            }
+                        }
+                        else if (sZips.Substring(nCount + 3, 1) == ",")
+                        {
+                            nLen -= 3;
+                            nCount += 3;
+
+                            zipList.Add(sFirst);
+
+                        }
+                        else if (sCheck == "-" || sCheck == ":")
+                        {
+
+                            string sRange = sZips.Substring(nCount, 7);
+
+                            int firstno = Convert.ToInt32(sRange.Substring(0, 3));
+                            int lastno = Convert.ToInt32(sRange.Substring(4, 3));
+
+                            int count = (lastno - firstno) + 1;
+
+                            var x = new List<string>();
+                            foreach (int i in Enumerable.Range(firstno, count)) x.Add(i.ToString());
+
+                            zipList.AddRange(x);
+                            nLen -= 7;
+                            nCount += 7;
+
+                        }
+                        else
+                        {
+                            if (nLen == 5)
+                            {
+                                zipList.Add(sZips.Substring(nCount, 5));
+
+                                nLen -= 5;
+                            }
+                            else if (nLen == 6)
+                            {
+                                string sFirstZip = sZips.Substring(nCount, 3);
+                                string sSecondZip = sZips.Substring(nCount + 3, 3);
+
+                                zipList.Add(sFirstZip);
+                                zipList.Add(sSecondZip);
+                                nLen -= 6;
+                            }
+                            else if (nLen == 4)
+                            {
+                                string sFour = sZips.Substring(nCount + 1, 4);
+
+                                sFour = sFour.Replace(",", "");
+
+                                zipList.Add(sFour);
+                                nLen -= 4;
+
+                            }
+                            else
+                            {
+                                break;
+
+                            }
+
+
+
+
+                        }
+                    }
+
+                }
+
+                for (int i = 0; i < zipList.Count; i++)
+                {
+                    string sTest = zipList[i].Trim();
+
+                    if (sTest.Length < 3)
+                    {
+
+                        zipList[i] = zipList[i].Replace(zipList[i].ToString(), "0" + zipList[i].Trim());
+                    }
+
+                }
+
+                return zipList;
+
+            }
+            catch (Exception)
+            {
+
+                return zipList;
+            }
+            finally
+            {
+
+
+            }
+        }
+
+        private void ofd_FileOk(object sender, CancelEventArgs e)
+        {
+            txtFilePath.Text = ofd.FileName;
+        }
+    }
+}
